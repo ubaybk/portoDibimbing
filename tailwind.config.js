@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        urbanist: ['urbanist']
+      },
+      colors: {
+        'primary': '#FD853A'
+      }
+    },
   },
   plugins: [],
 }
