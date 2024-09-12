@@ -11,7 +11,7 @@
 
 @layer components {
     .title-font{
-        @apply font-bold
+        @apply font-bold text-[30px]
     }
 
 }
