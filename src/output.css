@@ -607,6 +607,14 @@ video {
   margin-top: 2rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -834,6 +842,10 @@ video {
   font-size: 35px;
 }
 
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .text-\[8px\] {
   font-size: 8px;
 }
@@ -847,11 +859,6 @@ video {
 }
 
 .text-\[\#FD853A\] {
-  --tw-text-opacity: 1;
-  color: rgb(253 133 58 / var(--tw-text-opacity));
-}
-
-.text-primary {
   --tw-text-opacity: 1;
   color: rgb(253 133 58 / var(--tw-text-opacity));
 }
@@ -895,6 +902,11 @@ h1, span {
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(253 133 58 / var(--tw-bg-opacity));
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(253 133 58 / var(--tw-text-opacity));
 }
 
 .focus\:scroll-auto:focus {
